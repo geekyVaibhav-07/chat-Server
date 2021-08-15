@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "globals": {
+        "Math": true,
+        "require": true,
+        "module": true,
+        "process": true
+    },
+    "rules": {
+        "linebreak-style": ["off", "windows"],
+        "no-template-curly-in-string": "error",
+        "quotes": ["error", "single"],
+        "lines-around-comment": ["error", {  
+            "beforeBlockComment": true,
+            "afterBlockComment": false 
+            }
+        ],
+        "array-bracket-spacing": ["error", "always"],
+        "block-spacing": ["error", "always"],
+        "computed-property-spacing": ["error", "never"],
+        "key-spacing": "error",
+        "object-curly-spacing": ["error", "always"],
+        "indent": ["error", 4],
+        "prefer-const": "warn",
+        "no-dupe-else-if": "error",
+        "brace-style": "warn",
+        "no-unused-vars": "error",
+        "space-unary-ops": [1, { "words": true, "nonwords": false }],
+        "space-before-blocks": ["error", { "functions": "always", "keywords": "always", "classes": "always" }],
+        "no-undef": "error",
+        "no-redeclare": "error"
+    }
+}
